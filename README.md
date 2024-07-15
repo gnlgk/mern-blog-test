@@ -33,3 +33,18 @@ git remote add origin https://github.com/gnlgk/mern-blog-test.git
 git branch -M main
 git push -u origin main
 ````
+
+````bash
+npm init -y
+npm i express
+npm i nodemon
+npm i mongoose
+````
+
+````bash
+node api/index.js
+package.json ++"type": "module",
+package.json ++"scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"}
+````
